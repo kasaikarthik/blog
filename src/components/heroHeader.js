@@ -16,7 +16,7 @@ export default () => (
     `}
     render={data => (
       <div className="hero-header">
-        <div><img src={require('../images/SKClipart.png')} style= {{width: '100px', height: '100px'}} alt="SK"/></div>
+        <div><img src={require('../images/clipart.png')} style= {{width: '100px', height: '100px'}} alt="SK"/></div>
         <div className="headline">{data.site.siteMetadata.home.title}</div>
         <div 
           className="primary-content" 
