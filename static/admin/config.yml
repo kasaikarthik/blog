@@ -60,6 +60,14 @@ collections:
         hint: "Path must start with /"
       - { name: date, label: Date, widget: datetime }
       - { name: title, label: Title }
+      - label: "Tags"
+        name: "tags"
+        widget: "select"
+        multiple: true
+        min: 1
+        max: 4
+        options: ["Technology", "Business", "Startups", "Anime", "Productivity", "Leisure", "Sports"]
+        default: ["Blog"]
       - label: Meta Description
         name: metaDescription
         widget: text
