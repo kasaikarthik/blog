@@ -7,6 +7,9 @@
   "bugs": {
     "url": "https://github.com/W3Layouts/gatsby-starter-delog/issues"
   },
+  "config": {
+    "posts_per_page": 10
+  },
   "dependencies": {
     "@fontsource/poppins": "^4.3.0",
     "gatsby": "^2.21.0",
