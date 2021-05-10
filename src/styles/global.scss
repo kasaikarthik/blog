@@ -9,9 +9,9 @@ body {
   margin-top: 0
 }
 body.light {
-  --primary-color: #381696;
+  --primary-color: #0d6efd;
   --primary-text-color: #fff;
-  --featured-bg: #493b8a;
+  --featured-bg: #3d8bfd;
   --featured-text: #fff;
   --secondary-color: #10072b;
   --background: #fff;
@@ -34,11 +34,11 @@ body.dark {
   --featured-bg: #3d8bfd;
   --featured-text: #fff;
   --secondary-color: #3d8bfd;
-  --background: #01080f;
+  --background: #020509;
   --text-color: rgba(255,255,255,0.88);
   --text-secondary-color: rgba(255,255,255,0.66);
   --site-header: var(--background);
-  --card-bg: #050d16;
+  --card-bg: #040a11;
   --card-bdr: #03080d;
   --card-shadow: #020204;
   --btn-bg: var(--background);
