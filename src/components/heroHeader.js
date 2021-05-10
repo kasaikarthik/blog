@@ -16,12 +16,13 @@ export default () => (
     `}
     render={data => (
       <div className="hero-header">
+        <div><img src={require('../images/SKClipart.png')} style= {{width: '100px', height: '100px'}} alt="SK"/></div>
         <div className="headline">{data.site.siteMetadata.home.title}</div>
         <div 
           className="primary-content" 
           dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
         />
-        <Link to='/contact' className="button -primary">Get in touch &rarr;</Link>
+        <Link to='https://thesaikatrist.com#contact' className="button -primary">Get in touch &rarr;</Link>
       </div>
     )}
   />
