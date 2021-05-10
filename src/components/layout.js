@@ -2,6 +2,8 @@ import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 import Navigation from "../components/navigation"
 import 'prismjs/themes/prism-okaidia.css';
+import "@fontsource/poppins.css"
+
 
 
 export default ({ children }) => {
