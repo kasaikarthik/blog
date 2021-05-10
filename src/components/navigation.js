@@ -5,6 +5,7 @@ import ThemeChanger from "../components/themeChanger"
 export default (props) => (
   <nav className="navigation"> 
     <Link to="/contact">Contact</Link>
+    <a href="https://thesaikatrist.com" target="_blank">About</a>
     <ThemeChanger/>
   </nav>
   
