@@ -1,11 +1,16 @@
 import React from "react"
 import { Link } from "gatsby"
+import { kebabCase } from 'lodash'
 
 const PostLink = ({ post }) => (
   <article className="card ">
     <Link to={post.frontmatter.path}>
       {!!post.frontmatter.thumbnail && (
-        <img src={post.frontmatter.thumbnail} alt={post.frontmatter.title + "- Featured Shot"} />
+        <img
+          className="dark-image"
+          loading="lazy"
+          src={post.frontmatter.thumbnail}
+          alt={post.frontmatter.title + "- Featured Shot"} />
       )}
     </Link>
     <header>
@@ -14,7 +19,12 @@ const PostLink = ({ post }) => (
           {post.frontmatter.title}
         </Link>
       </h2>
-      <div className="post-meta">{post.frontmatter.date}</div>
+      <div className="post-meta">{post.frontmatter.date}</div><br/>
+      {post.frontmatter.tags && Object.values(post.frontmatter.tags).map((tag, i) => (
+        <>
+          <Link key={i} to={`/tags/${kebabCase(tag)}/`} style={{ paddingRight: '10px' }}>{tag}</Link>
+        </>
+      ))}
     </header>
   </article>
 )
