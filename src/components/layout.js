@@ -31,10 +31,10 @@ export default ({ children }) => {
       <footer className="site-footer">
         <p>&copy; {new Date().getFullYear()} thesaikatrist &bull; Crafted with <span role="img" aria-label="love">💙</span> by <a href="https://thesaikatrist.com">Sai Karthik</a></p>
         <p>
-        <a href="https://twitter.com/thesaikatrist" target="_blank"><Icon.Twitter /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://linkedin.com/in/kasaikarthik" target="_blank"><Icon.Linkedin /></a>&nbsp;&nbsp;&nbsp;
-        <a href="https://github.com/kasaikarthik" target="_blank"><Icon.GitHub /></a>&nbsp;&nbsp;&nbsp;
-        <a href="mailto:hello@thesaikatrist.com" target="_blank"><Icon.Mail /></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://twitter.com/thesaikatrist" target="_blank" rel="noreferrer"><Icon.Twitter aria-label="Save"/></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://linkedin.com/in/kasaikarthik" target="_blank" rel="noreferrer"><Icon.Linkedin aria-label="Save"/></a>&nbsp;&nbsp;&nbsp;
+        <a href="https://github.com/kasaikarthik" target="_blank" rel="noreferrer"><Icon.GitHub aria-label="Save"/></a>&nbsp;&nbsp;&nbsp;
+        <a href="mailto:hello@thesaikatrist.com" target="_blank" rel="noreferrer"><Icon.Mail aria-label="Save"/></a>&nbsp;&nbsp;&nbsp;
         </p>
       </footer>
     </div>
