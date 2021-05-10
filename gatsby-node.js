@@ -1,3 +1,4 @@
+import { kebabCase } from 'lodash'
 const path = require(`path`)
 
 exports.createPages = async ({ actions, graphql, reporter }) => {
