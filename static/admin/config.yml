@@ -69,7 +69,7 @@ collections:
         options: ["Technology", "Business", "Startups", "Anime", "Productivity", "Leisure", "Sports"]
         default: ["Blog"]
       - label: "Time To Read"
-        name: "timeToRead"
+        name: "time"
         widget: "number"
         default: 2
         value_type: "int"
