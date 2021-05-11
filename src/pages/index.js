@@ -23,7 +23,7 @@ const IndexPage = ({
         <meta content="summary" property="og:type"></meta>
         <meta name="description" property="og:description" content={site.siteMetadata.description} />
         <meta content={site.siteMetadata.title} property="og:title" name="title"></meta>
-        <meta content={`url('/assets/thumbnail.png',"https://blog.thesaikatrist.com")`} property="og:image" name="image"/>
+        <meta content={`url('/assets/thumbnail.png',"https://blog.thesaikatrist.com")`} property="og:image:secure_url" name="image"/>
         <meta name="description" content={site.siteMetadata.description} />
       </Helmet>
       <HeroHeader/>
