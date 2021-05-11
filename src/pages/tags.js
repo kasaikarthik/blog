@@ -15,19 +15,21 @@ const TagsPage = ({
         },
     },
 }) => (
-        <Layout>
+        <Layout>    
             <Helmet title={title} />
-            <div className="grids">
                 <ul>
+                <div className="grids">
                     {group.map((tag, i) => (
+                        <article className="card" style={{justifyContent: "center", lineHeight:5}}>
                         <h3 key={tag.fieldValue}>
                             <Link key={i} to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                                 {tag.fieldValue} ({tag.totalCount})
                             </Link>
                         </h3>
+                        </article>
                     ))}
+                    </div>
                 </ul>
-            </div>
         </Layout>
     )
 
