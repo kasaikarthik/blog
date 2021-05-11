@@ -17,7 +17,7 @@ export default function Template({
         <meta content="@thesaikatrist" name="twitter:site"></meta>
         <meta content={frontmatter.title} name="og:title"></meta>
         <meta content={frontmatter.metaDescription} name="og:description" />
-        <meta content={`url(${frontmatter.thumbnail})`} name="og:image" />
+        <meta content={`url(${frontmatter.thumbnail},"https://blog.thesaikatrist.com")`} name="og:image" />
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
       <div className="blog-post-container">
