@@ -30,9 +30,9 @@ body.light {
   --secondary-color: #10072b;
   --background: #fff;
   --site-header: var(--background);
-  --card-bg: #fff;
-  --card-bdr: #eee;
-  --card-shadow: #d5d5d5;
+  --card-bg: rgb(240, 240, 240);
+  --card-bdr: rgb(252, 252, 252);
+  --card-shadow: #ffffff;
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
   --btn-text-color: #868892;
