@@ -2,8 +2,14 @@
 template: BlogPost
 path: /remark-kitchen-sink
 date: 2020-02-21T12:12:25.364Z
-title: 'Hello World: The remark Kitchen Sink'
+title: "Hello World: The remark Kitchen Sink"
+author:
+  - Sai Karthik
+tags:
+  - Technology
+time: "3"
 thumbnail: /assets/image-6.jpg
+timetoread: 2
 ---
 # h1 Heading 8-)
 
