@@ -19,7 +19,7 @@ const PostLink = ({ post }) => (
           {post.frontmatter.title}
         </Link>
       </h2>
-      <div className="post-meta">{post.frontmatter.date}</div><br/>
+      <div className="post-meta">{post.frontmatter.date} - </div><br/>
       {post.frontmatter.tags && Object.values(post.frontmatter.tags).map((tag, i) => (
         <>
           <Link key={i} to={`/tags/${kebabCase(tag)}/`} style={{ paddingRight: '10px' }}>{tag}</Link>
