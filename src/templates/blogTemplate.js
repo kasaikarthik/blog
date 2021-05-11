@@ -25,7 +25,7 @@ export default function Template({
           )}
           {!!frontmatter.thumbnail && (
             <div className="post-thumbnail" style={{backgroundImage: `url(${frontmatter.thumbnail})`}}>
-              <h1 className="post-title">{frontmatter.title}</h1>
+              <h1 className="post-title"><font className="front-matter-container">{frontmatter.title}</font></h1>
             </div>
           )}
           <h2 style={{textAlign: "-webkit-center"}}>{frontmatter.date} - <font style={{color: "#0d6ef6"}}>{frontmatter.time} min read</font></h2><br/>
