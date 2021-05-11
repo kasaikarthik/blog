@@ -13,11 +13,12 @@ export default function Template({
     <Layout>
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
-        <meta content="summary" name="og:type"></meta>
-        <meta content="@thesaikatrist" name="twitter:site"></meta>
-        <meta content={frontmatter.title} name="og:title"></meta>
-        <meta content={frontmatter.metaDescription} name="og:description" />
-        <meta content={`url(${frontmatter.thumbnail},"https://blog.thesaikatrist.com")`} name="og:image" />
+        <meta content="summary" property="og:type" name="type"></meta>
+        <meta content="@thesaikatrist" property="twitter:site"></meta>
+        <meta content={frontmatter.title} property="og:title" name="title"></meta>
+        <meta content={frontmatter.metaDescription} property="og:description" name="description" />
+        <meta content={`url(${frontmatter.thumbnail},"https://blog.thesaikatrist.com")`} property="og:image" name="image"/>
+        <meta name="author" content="Sai Karthik K A"/>
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
       <div className="blog-post-container">
