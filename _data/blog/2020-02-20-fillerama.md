@@ -7,6 +7,7 @@ tags:
   - Business
   - Startups
   - Technology
+timetoread: 3
 thumbnail: /assets/image-5.jpg
 ---
 # No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister.
