@@ -11,7 +11,6 @@ tags:
   - Technology
 time: 2
 thumbnail: /assets/image-5.jpg
-timetoread: 3
 ---
 # No, I'll fix it. I'm good at fixing rot. Call me the Rotmeister. No, I'm the Doctor. Don't call me the Rotmeister.
 
