@@ -68,6 +68,13 @@ collections:
         max: 4
         options: ["Technology", "Business", "Startups", "Anime", "Productivity", "Leisure", "Sports"]
         default: ["Blog"]
+      - label: "Time To Read"
+        name: "timetoread"
+        widget: "number"
+        default: 2
+        value_type: "int"
+        min: 1
+        max: 50
       - label: Meta Description
         name: metaDescription
         widget: text
