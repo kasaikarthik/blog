@@ -2,6 +2,13 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import SEO from "../components/seo"
+
+const post = this.props.data.markdownRemark
+    const siteTitle = this.props.data.site.siteMetadata.title
+    const image = post.frontmatter.image
+      ? post.frontmatter.image.childImageSharp.resize
+      : null
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -11,6 +18,12 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
+      <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.description || post.excerpt}
+          image={image}
+          pathname={this.props.location.pathname}
+        />
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
         <meta name="description" content={frontmatter.metaDescription} />
