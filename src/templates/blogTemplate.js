@@ -1,14 +1,31 @@
 import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
+
+
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-
-const post = this.props.data.markdownRemark
+class BlogPostTemplate extends React.Component {
+  render() {
+    const post = this.props.data.markdownRemark
     const siteTitle = this.props.data.site.siteMetadata.title
     const image = post.frontmatter.image
       ? post.frontmatter.image.childImageSharp.resize
       : null
+    return (
+      <Layout location={this.props.location} title={siteTitle}>
+        <SEO
+          title={post.frontmatter.title}
+          description={post.frontmatter.description || post.excerpt}
+          image={image}
+          pathname={this.props.location.pathname}
+        />
+        <h1>{post.frontmatter.title}</h1>
+        <div dangerouslySetInnerHTML={{ __html: post.html }} />
+      </Layout>
+    )
+  }
+}
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
