@@ -9,6 +9,9 @@ export default function Template({
   const { site, markdownRemark } = data // data.markdownRemark holds your post data
   const { siteMetadata } = site
   const { frontmatter, html } = markdownRemark
+
+  let imgurl = new URL(`${frontmatter.thumbnail}`, "https://blog.thesaikatrist.com");
+
   return (
     <Layout>
       <Helmet>
@@ -17,7 +20,9 @@ export default function Template({
         <meta content="@thesaikatrist" property="twitter:site"></meta>
         <meta content={frontmatter.title} property="og:title" name="title"></meta>
         <meta content={frontmatter.metaDescription} property="og:description" name="description" />
-        <meta content={`url(${frontmatter.thumbnail},"https://blog.thesaikatrist.com")`} property="og:image:secure_url" name="image"/>
+        <meta content={imgurl} property="og:image:secure_url" name="image"/>
+        <meta content={imgurl} property="og:image:secure" name="image"/>
+        <meta content={imgurl} property="og:image" name="image"/>
         <meta name="author" content="Sai Karthik K A"/>
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
