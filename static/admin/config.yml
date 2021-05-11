@@ -78,6 +78,7 @@ collections:
         default: ["Blog"]
       - label: "Time To Read"
         name: time
+        widget: "number"
         default: 2
         value_type: "int"
         min: 1
