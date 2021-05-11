@@ -5,8 +5,6 @@ date: 2020-02-20T14:59:36.571Z
 author:
   - Sai Karthik
 title: Dummy Content from Fillerama
-author:
-  - Sai Karthik
 tags:
   - Business
   - Startups
