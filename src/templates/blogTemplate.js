@@ -1,31 +1,7 @@
 import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
-
-
 import Layout from "../components/layout"
-import SEO from "../components/seo"
-class BlogPostTemplate extends React.Component {
-  render() {
-    const post = this.props.data.markdownRemark
-    const siteTitle = this.props.data.site.siteMetadata.title
-    const image = post.frontmatter.image
-      ? post.frontmatter.image.childImageSharp.resize
-      : null
-    return (
-      <Layout location={this.props.location} title={siteTitle}>
-        <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-          image={image}
-          pathname={this.props.location.pathname}
-        />
-        <h1>{post.frontmatter.title}</h1>
-        <div dangerouslySetInnerHTML={{ __html: post.html }} />
-      </Layout>
-    )
-  }
-}
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -35,14 +11,13 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
   return (
     <Layout>
-      <SEO
-          title={post.frontmatter.title}
-          description={post.frontmatter.description || post.excerpt}
-          image={image}
-          pathname={this.props.location.pathname}
-        />
       <Helmet>
         <title>{frontmatter.title} | {siteMetadata.title}</title>
+        <meta content="summary" name="og:type"></meta>
+        <meta content="@thesaikatrist" name="twitter:site"></meta>
+        <meta content={frontmatter.title} name="og:title"></meta>
+        <meta content={frontmatter.metaDescription} name="og:description" />
+        <meta content={`url(${frontmatter.thumbnail})`} name="og:image" />
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
       <div className="blog-post-container">
