@@ -7,9 +7,8 @@ author:
   - Sai Karthik
 tags:
   - Technology
-time: "3"
+time: 3
 thumbnail: /assets/image-6.jpg
-timetoread: 2
 ---
 # h1 Heading 8-)
 
