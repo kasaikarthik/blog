@@ -27,6 +27,8 @@ const IndexPage = ({
         <meta content="https://blog.thesaikatrist.com/assets/thumbnail.png" property="og:image" name="image"/>
         <meta content="https://blog.thesaikatrist.com/assets/thumbnail.png" property="og:image:secure_url" name="image"/>
         <meta name="description" content={site.siteMetadata.description} />
+        <meta property="twitter:card" name="twitter:card" content="summary_large_image"/>
+        <meta name="author" content="Sai Karthik K A"/>
       </Helmet>
       <HeroHeader/>
       <h2>Blog Posts &darr;</h2>

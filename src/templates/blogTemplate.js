@@ -23,6 +23,7 @@ export default function Template({
         <meta content={imgurl} property="og:image:secure_url" name="image"/>
         <meta content={imgurl} property="og:image:secure" name="image"/>
         <meta content={imgurl} property="og:image" name="image"/>
+        <meta property="twitter:card" name="twitter:card" content="summary_large_image"/>
         <meta name="author" content="Sai Karthik K A"/>
         <meta name="description" content={frontmatter.metaDescription} />
       </Helmet>
