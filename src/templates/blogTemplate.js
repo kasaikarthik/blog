@@ -40,9 +40,10 @@ export default function Template({
               <h1 className="post-title"><font className="front-matter-container">{frontmatter.title}</font></h1>
             </div>
           )}
-          <h2 style={{textAlign: "-webkit-center"}}>{frontmatter.date} - <font style={{color: "#0d6ef6"}}>{frontmatter.time} min read</font></h2><br/>
-          <div
-            className="blog-post-content"
+          <p className="blog-post-content" style={{textAlign: "left", fontSize: "larger"}}><b>{frontmatter.author}</b><br/>
+          <span style={{float:"left"}}>{frontmatter.date}</span>
+          <span style={{float:"right", color: "#0d6ef6"}}>{frontmatter.time} min read</span></p><br/><br/><br/>
+          <div className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
@@ -63,6 +64,7 @@ export const pageQuery = graphql`
       frontmatter {
         date(formatString: "MMMM DD, YYYY")
         path
+        author
         title
         time
         thumbnail
