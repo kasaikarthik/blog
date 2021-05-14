@@ -1,8 +1,9 @@
 import React from "react"
 import Helmet from 'react-helmet';
-import { graphql } from "gatsby"
+import { graphql, Link} from "gatsby"
 import Layout from "../components/layout"
 import * as Icon from 'react-feather';
+import { kebabCase } from 'lodash'
 
 
 export default function Template({
@@ -50,10 +51,27 @@ export default function Template({
           <div className="blog-post-content"
             dangerouslySetInnerHTML={{ __html: html }}
           />
-        </article>
-        <div className="hero-header" style={{textAlign: "center"}}>
-            <br/><br/><a href={comments} target="_blank" rel="noreferrer" className="button -primary">View comments on Twitter&nbsp;&nbsp;&nbsp;<Icon.Twitter aria-label="Save"/></a>
+        
+        <br/><br/>
+        {/* Footer */}
+
+        <div className="blog-post-content">
+        <span style={{float:"left", textAlign: "left", fontSize: "larger"}}>
+        <b>Tags</b><br/>
+          {frontmatter.tags && Object.values(frontmatter.tags).map((tag, i) => (
+          <>
+            <Link key={i} to={`/tags/${kebabCase(tag)}/`} style={{ paddingRight: '10px' }}>{tag}</Link>
+          </>
+          ))}
+        </span>
+        
+        <span style={{float:"right"}}>
+          <a href={comments} target="_blank" rel="noreferrer" className="button -primary">View comments on Twitter&nbsp;&nbsp;&nbsp;<Icon.Twitter aria-label="Save"/></a>
+        </span>
         </div>
+        {/* End of Footer */}
+        </article>
+        <br/><br/>
       </div>
     </Layout>
   )
@@ -74,6 +92,7 @@ export const pageQuery = graphql`
         author
         title
         time
+        tags
         twitterComments
         thumbnail
         metaDescription
