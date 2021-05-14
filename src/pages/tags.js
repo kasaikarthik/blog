@@ -17,7 +17,7 @@ const TagsPage = ({
 }) => (
         <Layout>    
             <Helmet title={title} />
-                <ul>
+                <ul style={{paddingInlineStart: 0}}>
                 <div className="grids">
                     {group.map((tag, i) => (
                         <article className="card" style={{justifyContent: "center", lineHeight:5}}>
