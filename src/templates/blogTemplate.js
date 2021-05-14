@@ -56,22 +56,24 @@ export default function Template({
         {/* Footer */}
 
         <div className="blog-post-content">
-        <span style={{float:"left", textAlign: "left", fontSize: "larger"}}>
-        <b>Tags</b><br/>
-          {frontmatter.tags && Object.values(frontmatter.tags).map((tag, i) => (
-          <>
-            <Link key={i} to={`/tags/${kebabCase(tag)}/`} style={{ paddingRight: '10px' }}>{tag}</Link>
-          </>
-          ))}
-        </span>
+          <span style={{float:"left", textAlign: "left", fontSize: "larger"}}>
+          <b>Tags</b><br/>
+            {frontmatter.tags && Object.values(frontmatter.tags).map((tag, i) => (
+            <>
+              <Link key={i} to={`/tags/${kebabCase(tag)}/`} style={{ paddingRight: '10px' }}>{tag}</Link>
+            </>
+            ))}
+          </span>
         
-        <span style={{float:"right"}}>
-          <a href={comments} target="_blank" rel="noreferrer" className="button -primary">View comments on Twitter&nbsp;&nbsp;&nbsp;<Icon.Twitter aria-label="Save"/></a>
-        </span>
+          <span style={{float:"right"}}>
+            <a href={comments} target="_blank" rel="noreferrer" className="button -primary">View comments&nbsp;&nbsp;&nbsp;<Icon.Twitter aria-label="Save"/></a>
+          </span>
         </div>
         {/* End of Footer */}
+
         </article>
         <br/><br/>
+
       </div>
     </Layout>
   )
