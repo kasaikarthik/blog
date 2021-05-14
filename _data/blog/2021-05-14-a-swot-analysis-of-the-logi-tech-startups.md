@@ -7,6 +7,7 @@ author:
   - Sai Karthik
 tags:
   - Business
+  - Technology
 time: 3
 twitterComments: https://twitter.com/thesaikatrist
 metaDescription: A SWOT analysis of the scope of startups in the Logitech industry
