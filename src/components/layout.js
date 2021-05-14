@@ -30,7 +30,7 @@ export default ({ children }) => {
       </header>
       {children}
       <footer className="site-footer">
-        <p>&copy; {new Date().getFullYear()} The Katrist Takes &bull; Crafted with <span role="img" aria-label="love">💙</span> by <a href="https://thesaikatrist.com">Sai Karthik</a></p>
+        <p>&copy; {new Date().getFullYear()} The Katrist Takes &bull; Developed with ReactJS and <span role="img" aria-label="love">💙</span> by <a href="https://thesaikatrist.com">Sai Karthik</a></p>
         <p>
         <a href="https://twitter.com/thesaikatrist" target="_blank" rel="noreferrer"><Icon.Twitter aria-label="Save"/></a>&nbsp;&nbsp;&nbsp;
         <a href="https://linkedin.com/in/kasaikarthik" target="_blank" rel="noreferrer"><Icon.Linkedin aria-label="Save"/></a>&nbsp;&nbsp;&nbsp;
