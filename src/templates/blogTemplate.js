@@ -2,6 +2,8 @@ import React from "react"
 import Helmet from 'react-helmet';
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
+import * as Icon from 'react-feather';
+
 
 export default function Template({
   data, // this prop will be injected by the GraphQL query below.
@@ -11,6 +13,8 @@ export default function Template({
   const { frontmatter, html } = markdownRemark
 
   let imgurl = new URL(`${frontmatter.thumbnail}`, "https://blog.thesaikatrist.com");
+  let twitterURL = (frontmatter.twitterComments != null ? frontmatter.twitterComments : 'https://twitter.com/thesaikatrist')
+  var comments = new URL(twitterURL);
 
   return (
     <Layout>
@@ -47,6 +51,9 @@ export default function Template({
             dangerouslySetInnerHTML={{ __html: html }}
           />
         </article>
+        <div className="hero-header" style={{textAlign: "center"}}>
+            <br/><br/><a href={comments} target="_blank" rel="noreferrer" className="button -primary">View comments on Twitter&nbsp;&nbsp;&nbsp;<Icon.Twitter aria-label="Save"/></a>
+        </div>
       </div>
     </Layout>
   )
@@ -67,6 +74,7 @@ export const pageQuery = graphql`
         author
         title
         time
+        twitterComments
         thumbnail
         metaDescription
       }

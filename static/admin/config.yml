@@ -79,10 +79,17 @@ collections:
       - label: "Time To Read"
         name: time
         widget: "number"
-        default: 2
         value_type: "int"
         min: 1
         max: 30
+        options:
+        default: 2
+      - label: "Twitter Blog Link"
+        name: twitterComments
+        widget: "string"
+        options:
+        default: "https://twitter.com/thesaikatrist"
+        required: false
       - label: Meta Description
         name: metaDescription
         widget: text
