@@ -65,10 +65,12 @@ export default function Template({
             ))}
           </span>
         
+        {!!frontmatter.twitterComments && (
           <span style={{float:"right"}}>
             <a href={comments} target="_blank" rel="noreferrer" className="button -primary">View comments&nbsp;&nbsp;&nbsp;<Icon.Twitter aria-label="Save"/></a>
           </span>
-        </div>
+          )}
+        </div>  
         {/* End of Footer */}
 
         </article>
