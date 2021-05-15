@@ -2,7 +2,7 @@
 template: BlogPost
 path: /how-to-present-your-solution-in-a-case-study-contest
 date: 2020-06-23T08:35:25.520Z
-title: "How to Present Your Solution In an International Case-Study Contest "
+title: "How to Present Your Solution in a Case-Study Contest "
 author:
   - Sai Karthik
 tags:
@@ -63,6 +63,8 @@ Numbers don’t lie. Don’t lie with numbers as well. Use them only to demonstr
 
 This would exhibit the fact that you have thoroughly thought about your solution. It would also make your life easier since you’ll be able to quantify the impact and risks it can have on the case subject, for a best and worst-case scenario. Here’s a brief template that I prepared that you can exhibit (Don’t mind the content, the slides had to be handwritten in our contest xD)
 
+![slide template](https://miro.medium.com/max/875/0*Fq2MIhDz-RGHY9v8 "The rough slide template we used while presenting the financial impacts of the recommendations")
+
 ### **A Picture Speaks a Thousand Words**
 
 Like it or not, aesthetics matter.
@@ -70,12 +72,50 @@ Like it or not, aesthetics matter.
 People love seeing things that are pleasing to the eye. So it is important that you try making use of various flowcharts. This is only for the handwritten case, but in case you do have it, try standardizing the fonts between multiple contributors.\
 You can try going a step further by even standardizing the colors and type of visual presentations you use to present a certain parameter. Below is what we used or at least tried using:
 
+![slide standards](https://miro.medium.com/max/875/0*g30lcc3bUSF9I3AK)
+
 ##### The key to a very good slide is: *“lesser the text, the better it is”.* Use relevant, important keywords that engage with your audience in the storyline.
 
 Alongside creating a visual impact with the text, add other aesthetics that contribute in minor ways to the slide, but enhance the overall impact of your solution, such as page borders.
 
 Throughout our practice sessions and our final presentation, we even tried implementing a navbar, that indicated where we were in the storyline of the presentation, like here:
 
+![](https://miro.medium.com/max/2000/0*aLtPm90EU5NdUjy2)
 
+On a side note, do try to standardize what everyone is wearing as well.
+
+### **Be open to co-creating new solutions, but never give up on your stance**
+
+Now that we’re done looking into the presentation part, let’s look at the other crucial part, ***the AMA session with the judges*.** Between the top teams, this usually becomes the differentiator.
+
+> So let’s go back to basics: the golden rule — Time is money and the statement that there is no right or wrong in any solution, it’s all about the justification.
+
+Sneak in to buy as much time as possible, even if little. A hack for this would be to ask the judges to repeat or rephrase the question. It can definitely help you quickly outline your solution. Secondly, even solutions that seem impractical from the outside can definitely be a winning one, as long as the team has given the relevant details and can justify their choice of strategy. If time is available, try noting down the possible questions the judges might ask.
+
+But the bigger question arises if the judges ask a question from a perspective you had completely missed out on. After all, all contests are time-bound and there’s only so much you can do to view it from every possible angle. But fret not. This is where your spontaneous thinking comes into the picture. Try understanding the perspective of the judges, and try fleshing out a new detail to the exact same solution given by your team earlier or perhaps even amalgamating their opinion into yours to strengthen it.
+
+##### But never ever give up your stance, even if it means that you’ll have to consider other solutions and prove why those might be less effective compared to the one you’ve chosen.
+
+Don’t fight, try giving a logical take on those with a smile on your face. At the same time, don’t be afraid to acknowledge those minor mistakes and inconsistencies pointed out.
+
+> In the end, what people ultimately see is the output and it matters the most.
+
+So put your team through those simulations, try practicing and understanding your thought processes to see where you go wrong. But to your benefit, there might just be the template for the recommendations you’re presenting.
+
+This was explained to us in one of the expert sessions by the Sattva Consulting team. See if your entire presentation demonstrates **the concept of 3U**:
+
+* **Understanding** — to collect important and relevant facts and the problem statement, along with the aesthetics to improve the impact
+* **Utility** — to utilize the right frameworks, but most importantly the approach that is taken towards the solution
+* **Usefulness** — to provide useful insights towards the case, based on a rationale
+
+If you can say that all of these parameters have been satisfied optimally through your presentation, you’re good to go!
+
+I hope you found this useful. Good luck on your quest to win the contest :)
+
+![Team India - HSBC APAC Case Study Contest](/assets/nittindia.png "Team India at HSBC APAC International Case Study Contest 2020")
+
+Do check out our performance at the APAC International finals [at this link here](https://competition.acrc.hku.hk/APAC/Video/2020#nanogallery/album-2120/0/11), to know the exact strategy we used.
+
+*Originally published on [Medium](https://medium.com/thesaikatrist/how-to-present-your-solution-in-a-case-study-contest-learnings-from-the-indian-team-at-hsbc-6ee9e6ca1118).*
 
 <!--EndFragment-->
