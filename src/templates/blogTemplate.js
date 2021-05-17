@@ -4,6 +4,7 @@ import { graphql, Link} from "gatsby"
 import Layout from "../components/layout"
 import * as Icon from 'react-feather';
 import { kebabCase } from 'lodash'
+import '@fontsource/inter'
 
 
 export default function Template({
