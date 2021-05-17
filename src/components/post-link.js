@@ -14,12 +14,12 @@ const PostLink = ({ post }) => (
       )}
     </Link>
     <header>
-      <h2 className="post-title">
+      <p className="post-title">
         <Link to={post.frontmatter.path} className="post-link">
           {post.frontmatter.title}
         </Link>
-      </h2>
-      <div className="post-meta">{post.frontmatter.date} - {post.frontmatter.time} min read
+      </p>
+      <div className="post-meta">{post.frontmatter.time} min read
       <br/>{post.frontmatter.author}</div><br/>
       {post.frontmatter.tags && Object.values(post.frontmatter.tags).map((tag, i) => (
         <>
