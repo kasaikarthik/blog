@@ -23,37 +23,33 @@ Our team of four, with Aditya Doiphode, Swathi Dhamodharan, Aditya Raj Nema, and
 
 P.S: This is a very generic template that can be applied to most case study competitions, although a few of them might not be applicable on a case-to-case basis.
 
-<div style="text-align:center">
-![Key components to a great case study solution](/assets/keycomponents.png "Key components to a great case study solution. Source: Forbes")
-</div>
+<p align="center" width="100%">
+!\\\[Key components to a great case study solution](/assets/keycomponents.png "Key components to a great case study solution. Source: Forbes")
+</p>
 
-### **Splitting your resources judiciously is the key**
+## Splitting your resources judiciously is the key
 
 The professor’s words were spot on. It was the golden rule of the heist at the Royal Mint of Spain and it should also be the golden rule of your team’s approach as well — *Time is money*. Remember that planning out your time is critical and trying it out in a mock case will definitely help you understand your team’s dynamics when it comes to time.
 
 > **Identify what you think are the blocks of your team in terms of dissecting and building a strategy, and divide it accordingly because every team has a different set of dynamics.**
 
-<div style="text-align:center">
-![Money-heist](/assets/money-heist.png "Like in Money Heist, having a solid plan of action remains critical to the performance. Source: Netflix")
-</div>
+<p align="center" width="100%">
+!\[Money-heist](/assets/money-heist.png "Like in Money Heist, having a solid plan of action remains critical to the performance. Source: Netflix")
+</p>
 
 It is also essential to do a decisive labor division amongst yourselves and make individuals accountable. This was one of the areas where my team and I had a tough time figuring out because a division of labor involves much more than just skillsets, it also boils down to presentation skills, interlinked dependencies, and ego-clashes.
 
 Yeah, someone had to say it. It is very likely that there will be ego-clashes within the team, particularly between the ones with similar personalities. But remember that not everyone needs to work on framing the recommendations. It is ideal that the team leaves the detailing to the best 2–3 individuals with relevant skill sets, while others look to complement their efforts. So now that we’re done with who’s doing what, let’s look at how the big picture of your presentation should look like.
 
-### **Weave a storyline and do not just present the logic**
+## **Weave a storyline and do not just present the logic**
 
 This one of the biggest factors where teams lose out on. That’s just the competitive nature of humans, to keep pressing for each individual’s ideas to be incorporated heavily. But, a well-rounded nature of the solution would indicate that the team analyzed the case from all possible perspectives and had good coordination between them.
 
-
-
 > **In our case, the presentation had recommendations (not “solutions”) as just one of the components. We roped in various other components such as drawing the viewer’s attention by tying the problem statement with relevant scenarios in the current world, defining the problem statement, what approach the company had taken, potential ways to execute the recommendations accompanied by a risk-impact analysis, and a conclusion.**
->
->
 
 If you’re presenting in person, a few additional points should also be kept in mind. Ensure that there is sync between each other, and the transition between any two individuals isn’t abrupt, in any form. Alongside, having people who can deliver content well at the start and the finish parts can help assert your case. Now that we know what your big picture should look like, let’s jump into the crux of your presentation, the new “big” ideas that people believe can bring positive changes to the case subject.
 
-### **There is no right or wrong solution, it’s all about the justification**
+## **There is no right or wrong solution, it’s all about the justification**
 
 Every time you add a detail to the recommendations, come back to one word each time: ‘why?’, because *a case study is set in a business scenario, plagued with uncertainty and surprise moves from competitors that can potentially even disrupt the entire industry*. So, there can never be one right answer, and sometimes even a logical approach to a problem has made companies go bankrupt, simply because they were not willing to adapt or the problem was far bigger than themselves or the industry itself. Hence, always justify what you present, keeping an eye on the current scenario.
 
@@ -63,7 +59,7 @@ Another critical part that teams miss out on is plotting a realistic timeline or
 
 Of course, not every solution requires a timeline, but it generally remains the norm for consultants to give a timeline for any case they’re working on. Being an industry standard, it’s best if you can provide one in your solution. But….
 
-### **The numbers speak for themselves**
+## **The numbers speak for themselves**
 
 Numbers don’t lie. Don’t lie with numbers as well. Use them only to demonstrate the magnitude of the problem. Make clever use of data, especially from exhibits to solidify your case.
 
@@ -71,30 +67,34 @@ Numbers don’t lie. Don’t lie with numbers as well. Use them only to demonstr
 
 This would exhibit the fact that you have thoroughly thought about your solution. It would also make your life easier since you’ll be able to quantify the impact and risks it can have on the case subject, for a best and worst-case scenario. Here’s a brief template that I prepared that you can exhibit (Don’t mind the content, the slides had to be handwritten in our contest xD)
 
-<div style="text-align:center">
-![slide template](https://miro.medium.com/max/875/0*Fq2MIhDz-RGHY9v8 "The rough slide template we used while presenting the financial impacts of the recommendations")
-</div>
+<p align="center" width="100%">
+!\[slide template](https://miro.medium.com/max/875/0*Fq2MIhDz-RGHY9v8 "The rough slide template we used while presenting the financial impacts of the recommendations")
+</p>
 
-### **A Picture Speaks a Thousand Words**
+## **A Picture Speaks a Thousand Words**
 
 Like it or not, aesthetics matter.
 
-People love seeing things that are pleasing to the eye. So it is important that you try making use of various flowcharts. This is only for the handwritten case, but in case you do have it, try standardizing the fonts between multiple contributors.\
+People love seeing things that are pleasing to the eye. So it is important that you try making use of various flowcharts. This is only for the handwritten case, but in case you do have it, try standardizing the fonts between multiple contributors.
 You can try going a step further by even standardizing the colors and type of visual presentations you use to present a certain parameter. Below is what we used or at least tried using:
 
-![slide standards](https://miro.medium.com/max/875/0*g30lcc3bUSF9I3AK)
+<p align="center" width="100%">
+!\[slide standards](https://miro.medium.com/max/875/0*g30lcc3bUSF9I3AK)
+</p>
 
-##### The key to a very good slide is: *“lesser the text, the better it is”.* Use relevant, important keywords that engage with your audience in the storyline.
+#### The key to a very good slide is: *“lesser the text, the better it is”.* Use relevant, important keywords that engage with your audience in the storyline.
 
 Alongside creating a visual impact with the text, add other aesthetics that contribute in minor ways to the slide, but enhance the overall impact of your solution, such as page borders.
 
 Throughout our practice sessions and our final presentation, we even tried implementing a navbar, that indicated where we were in the storyline of the presentation, like here:
 
-![](https://miro.medium.com/max/2000/0*aLtPm90EU5NdUjy2)
+<p align="center" width="100%">
+!\[](https://miro.medium.com/max/2000/0*aLtPm90EU5NdUjy2)
+</p>
 
 On a side note, do try to standardize what everyone is wearing as well.
 
-### **Be open to co-creating new solutions, but never give up on your stance**
+## **Be open to co-creating new solutions, but never give up on your stance**
 
 Now that we’re done looking into the presentation part, let’s look at the other crucial part, ***the AMA session with the judges*.** Between the top teams, this usually becomes the differentiator.
 
@@ -104,7 +104,7 @@ Sneak in to buy as much time as possible, even if little. A hack for this would 
 
 But the bigger question arises if the judges ask a question from a perspective you had completely missed out on. After all, all contests are time-bound and there’s only so much you can do to view it from every possible angle. But fret not. This is where your spontaneous thinking comes into the picture. Try understanding the perspective of the judges, and try fleshing out a new detail to the exact same solution given by your team earlier or perhaps even amalgamating their opinion into yours to strengthen it.
 
-##### But never ever give up your stance, even if it means that you’ll have to consider other solutions and prove why those might be less effective compared to the one you’ve chosen.
+#### But never ever give up your stance, even if it means that you’ll have to consider other solutions and prove why those might be less effective compared to the one you’ve chosen.
 
 Don’t fight, try giving a logical take on those with a smile on your face. At the same time, don’t be afraid to acknowledge those minor mistakes and inconsistencies pointed out.
 
