@@ -35,11 +35,11 @@ const Tags = ({ pageContext, data }) => {
                         </Link>
 
                         <header>
-                            <h2 className="post-title">
+                            <p className="post-title">
                                 <Link key={i} to={path}>{title}</Link>
-                            </h2>
+                            </p>
                             <h3 className="post-meta"> 
-                                {date} - {time} min read<br/>
+                                {time} min read<br/>
                             </h3>
                         </header>
                     </article>

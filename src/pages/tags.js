@@ -21,7 +21,7 @@ const TagsPage = ({
                 <div className="grids">
                     {group.map((tag, i) => (
                         <article className="card" style={{justifyContent: "center", lineHeight:5}}>
-                        <p style={{fontSize: "x-large"}} key={tag.fieldValue}>
+                        <p style={{fontSize: "large"}} key={tag.fieldValue}>
                             <Link key={i} to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                                 {tag.fieldValue} ({tag.totalCount})
                             </Link>
