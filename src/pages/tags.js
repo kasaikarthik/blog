@@ -21,11 +21,11 @@ const TagsPage = ({
                 <div className="grids">
                     {group.map((tag, i) => (
                         <article className="card" style={{justifyContent: "center", lineHeight:5}}>
-                        <h3 key={tag.fieldValue}>
+                        <p style={{fontSize: "x-large"}} key={tag.fieldValue}>
                             <Link key={i} to={`/tags/${kebabCase(tag.fieldValue)}/`}>
                                 {tag.fieldValue} ({tag.totalCount})
                             </Link>
-                        </h3>
+                        </p>
                         </article>
                     ))}
                     </div>

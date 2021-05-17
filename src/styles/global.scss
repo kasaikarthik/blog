@@ -28,10 +28,10 @@ body.light {
   --featured-bg: #3d8bfd;
   --featured-text: #fff;
   --secondary-color: #10072b;
-  --background: #fff;
+  --background: rgb(231, 229, 229);
   --site-header: var(--background);
-  --card-bg: #fff;
-  --card-bdr: rgb(252, 252, 252);
+  --card-bg: rgb(238, 237, 237);
+  --card-bdr: rgb(231, 229, 229);
   --card-shadow: #d5d5d586;
   --btn-bg: var(--background);
   --btn-bdr: #d3d6e7;
@@ -174,6 +174,8 @@ a {
   color: var(--text-color);
   line-height: 1.5;
   > .blog-post-content {
+    font-family: "Inter";
+    font-size: large;
     max-width: 768px;
     margin: 0 auto;
   }
