@@ -11,11 +11,15 @@ tags:
 time: 3
 twitterComments: https://twitter.com/thesaikatrist
 metaDescription: A SWOT analysis of the scope of startups in the Logitech industry
-thumbnail: /assets/1_zi_fttpqtthqerpmp0uxhg.jpeg
+thumbnail: /assets/logitech.png
 ---
 <!--StartFragment-->
 
 **Logitech.** Heard of it somewhere? It is a new domain that has surfaced with a huge potential for disruption. Applying the latest technological trends in the logistics domain might just be the next big thing. In this article, I've presented a SWOT analysis of the scope of startups in the Logitech industry.
+
+<p align="center" width="100%">
+    <img width="95%" src="/assets/logitech2.png"> 
+</p>
 
 The term ‘logistics’ today is not exclusive to being a mere B2C-type business. It has transformed into a tech-related industry. Almost all new technologies are being applied in this space: from data analytics to AI to even IoT. The very fact that the industry has gone beyond its traditional strength to meet the demands of the growing need of consumers is a big strength in itself.
 
