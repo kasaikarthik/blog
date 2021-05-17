@@ -23,9 +23,7 @@ Our team of four, with Aditya Doiphode, Swathi Dhamodharan, Aditya Raj Nema, and
 
 P.S: This is a very generic template that can be applied to most case study competitions, although a few of them might not be applicable on a case-to-case basis.
 
-<div style="text-align:center">
 ![Key components to a great case study solution](/assets/keycomponents.png "Key components to a great case study solution. Source: Forbes")
-</div>
 
 ### **Splitting your resources judiciously is the key**
 
