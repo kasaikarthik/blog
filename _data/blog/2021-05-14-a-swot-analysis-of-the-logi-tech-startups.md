@@ -2,7 +2,7 @@
 template: BlogPost
 path: /SWOT-Analysis-Logitech-startups-2020
 date: 2019-09-14T14:55:22.338Z
-title: Logi-Tech Startups of 2020 - A SWOT Analysis
+title: Logitech Startups in 2020 - A SWOT Analysis
 author:
   - Sai Karthik
 tags:

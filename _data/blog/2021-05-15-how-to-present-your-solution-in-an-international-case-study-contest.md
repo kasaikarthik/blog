@@ -24,7 +24,7 @@ Our team of four, with Aditya Doiphode, Swathi Dhamodharan, Aditya Raj Nema, and
 P.S: This is a very generic template that can be applied to most case study competitions, although a few of them might not be applicable on a case-to-case basis.
 
 <p align="center" width="100%">
-!\\\[Key components to a great case study solution](/assets/keycomponents.png "Key components to a great case study solution. Source: Forbes")
+<img width = "60%" src"/assets/keycomponents.png">
 </p>
 
 ## Splitting your resources judiciously is the key
@@ -34,7 +34,7 @@ The professor’s words were spot on. It was the golden rule of the heist at the
 > **Identify what you think are the blocks of your team in terms of dissecting and building a strategy, and divide it accordingly because every team has a different set of dynamics.**
 
 <p align="center" width="100%">
-!\[Money-heist](/assets/money-heist.png "Like in Money Heist, having a solid plan of action remains critical to the performance. Source: Netflix")
+<img width = "80%" src="/assets/money-heist.png">
 </p>
 
 It is also essential to do a decisive labor division amongst yourselves and make individuals accountable. This was one of the areas where my team and I had a tough time figuring out because a division of labor involves much more than just skillsets, it also boils down to presentation skills, interlinked dependencies, and ego-clashes.
@@ -68,7 +68,7 @@ Numbers don’t lie. Don’t lie with numbers as well. Use them only to demonstr
 This would exhibit the fact that you have thoroughly thought about your solution. It would also make your life easier since you’ll be able to quantify the impact and risks it can have on the case subject, for a best and worst-case scenario. Here’s a brief template that I prepared that you can exhibit (Don’t mind the content, the slides had to be handwritten in our contest xD)
 
 <p align="center" width="100%">
-!\[slide template](https://miro.medium.com/max/875/0*Fq2MIhDz-RGHY9v8 "The rough slide template we used while presenting the financial impacts of the recommendations")
+<img width = "70%" src="https://miro.medium.com/max/875/0*Fq2MIhDz-RGHY9v8">
 </p>
 
 ## **A Picture Speaks a Thousand Words**
@@ -79,7 +79,7 @@ People love seeing things that are pleasing to the eye. So it is important that 
 You can try going a step further by even standardizing the colors and type of visual presentations you use to present a certain parameter. Below is what we used or at least tried using:
 
 <p align="center" width="100%">
-!\[slide standards](https://miro.medium.com/max/875/0*g30lcc3bUSF9I3AK)
+<img width = "70%" src="https://miro.medium.com/max/875/0*g30lcc3bUSF9I3AK">
 </p>
 
 #### The key to a very good slide is: *“lesser the text, the better it is”.* Use relevant, important keywords that engage with your audience in the storyline.
@@ -89,7 +89,7 @@ Alongside creating a visual impact with the text, add other aesthetics that cont
 Throughout our practice sessions and our final presentation, we even tried implementing a navbar, that indicated where we were in the storyline of the presentation, like here:
 
 <p align="center" width="100%">
-!\[](https://miro.medium.com/max/2000/0*aLtPm90EU5NdUjy2)
+<img width = "70%" src="https://miro.medium.com/max/2000/0*aLtPm90EU5NdUjy2">
 </p>
 
 On a side note, do try to standardize what everyone is wearing as well.
