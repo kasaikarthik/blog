@@ -1,7 +1,7 @@
 ---
 template: BlogPost
 path: /startups-of-deeptech-india
-date: 2021-05-17T13:34:34.661Z
+date: 2020-03-08T13:38:39.583Z
 title: Startups of Deeptech - An Indian Perspective
 author:
   - Sai Karthik
