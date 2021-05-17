@@ -2,7 +2,7 @@
 template: BlogPost
 path: /joe-rogan-spotify-deal
 date: 2020-05-23T20:18:52.526Z
-title: Why Spotify Struck Gold With Joe Rogan's Podcast Deal
+title: Why Spotify Struck Gold with Joe Rogan's Podcast Deal
 author:
   - Sai Karthik
 tags:
