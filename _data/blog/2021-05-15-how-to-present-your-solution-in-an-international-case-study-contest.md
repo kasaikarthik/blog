@@ -24,7 +24,7 @@ Our team of four, with Aditya Doiphode, Swathi Dhamodharan, Aditya Raj Nema, and
 P.S: This is a very generic template that can be applied to most case study competitions, although a few of them might not be applicable on a case-to-case basis.
 
 <p align="center" width="100%">
-<img width = "60%" src"/assets/keycomponents.png">
+<img width = "80%" src"/assets/keycomponents.png">
 </p>
 
 ## Splitting your resources judiciously is the key
