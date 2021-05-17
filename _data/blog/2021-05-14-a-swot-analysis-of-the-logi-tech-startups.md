@@ -11,7 +11,7 @@ tags:
 time: 3
 twitterComments: https://twitter.com/thesaikatrist
 metaDescription: A SWOT analysis of the scope of startups in the Logitech industry
-thumbnail: /assets/1_zi_fttpqtthqerpmp0uxhg.jpeg
+thumbnail: /assets/logitech.png
 ---
 <!--StartFragment-->
 
