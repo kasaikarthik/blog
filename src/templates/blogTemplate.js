@@ -56,7 +56,7 @@ export default function Template({
         <br/><br/>
         {/* Footer */}
 
-        <div className="blog-post-content">
+        <div className="blog-post-content" style={{fontSize:"medium"}}>
           <span style={{float:"left", textAlign: "left", fontSize: "larger"}}>
           <b>Tags</b><br/>
             {frontmatter.tags && Object.values(frontmatter.tags).map((tag, i) => (
