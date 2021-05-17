@@ -23,12 +23,14 @@ thumbnail: /assets/deeptech.png
 
 It is a term collectively referring to cutting-edge technologies today, from Artificial Intelligence, Internet of Things, Blockchain, Machine Learning, Computer Vision, Virtual Reality, and more. Deep tech is fundamentally a connection of different types of technologies to develop a solution that has significant improvement over other products available in the market in terms of experience, performance, and impact.
 
-### So how vital is Deeptech today? 
+### So how vital is Deeptech today?
 
-As Paytm CEO Vijay Shekhar quoted in 2019, 
+As Paytm CEO Vijay Shekhar quoted in November 2019, 
 
-> It is almost impossible to scale any startup or even a business today without deep tech. 
-> There has never been a more exciting time for India’s deep tech startup ecosystem, which is at a tipping point. A recent report suggests that India is the third-largest AI startup ecosystem, with Bengaluru a leading hub for deep tech startups, followed by Hyderabad. However, despite the rising dialogue around deep tech, the majority are still unaware of how these start-ups differ from the technology companies, and there lies the scope to innovate.
+> "It is almost impossible to scale any startup or even a business today without deep tech. 
+> There has never been a more exciting time for India’s deep tech startup ecosystem, which is at a tipping point. "
+
+A recent report suggests that India is the third-largest AI startup ecosystem, with Bengaluru a leading hub for deep tech startups, followed by Hyderabad. However, despite the rising dialogue around deep tech, the majority are still unaware of how these start-ups differ from the technology companies, and there lies the scope to innovate.
 
 ### Fundings Galore
 
