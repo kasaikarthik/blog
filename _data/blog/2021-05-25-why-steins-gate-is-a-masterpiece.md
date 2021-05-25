@@ -8,6 +8,7 @@ author:
 tags:
   - Anime
 time: 8
+twitterComments: https://twitter.com/thesaikatrist/status/1397181559111774215?s=20
 metaDescription: Steins; Gate is pretty much an unprecedented piece of art. Long
   live the mad scientist.
 thumbnail: /assets/steinsgate.png
@@ -64,7 +65,7 @@ Enter *Kurisu Makise*. Through the knowledge she gained over the years, she come
 
 <img width = "100%" src="/assets/okabe-timeleap.png">
 
-Okabe time leaping into the past for the first time
+<i>Okabe time leaping into the past for the first time</i>
 
 </p>
 
@@ -80,7 +81,7 @@ This is a concept that is rarely touched upon by shows and movies in pop culture
 
 <img width = "100%" src="/assets/divergencemeter.png">
 
-Divergence meter as shown in the anime
+<i>Divergence meter as shown in the anime</i>
 
 </p>
 
