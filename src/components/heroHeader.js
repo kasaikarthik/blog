@@ -22,7 +22,7 @@ export default () => (
           className="primary-content" 
           dangerouslySetInnerHTML={{ __html: data.site.siteMetadata.home.description}}
         />
-        <a href='https://thesaikatrist.com' target="_blank" rel="noreferrer" className="button -primary">Visit my website &rarr;</a>
+        {/* <a href='https://thesaikatrist.com' target="_blank" rel="noreferrer" className="button -primary">Visit my website &rarr;</a> */}
       </div>
     )}
   />

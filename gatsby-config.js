@@ -44,8 +44,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Delog GatbsyJS Starter`,
-        short_name: `Delog`,
+        name: `The Katrist Takes`,
+        short_name: `Katrist Blog`,
         start_url: `/`,
         background_color: `#fff`,
         theme_color: `#381696`,
