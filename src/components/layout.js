@@ -24,7 +24,7 @@ export default ({ children }) => {
     <div className="site-wrapper">
       <header className="site-header">
         <div className="site-title">
-          <Link to="/">thesaikatrist</Link>
+          <Link to="/">Sai Karthik</Link>
         </div>
         <Navigation />
       </header>
