@@ -11,6 +11,7 @@
     "posts_per_page": 10
   },
   "dependencies": {
+    "@conradlin/gatsby-source-notion-database": "^0.7.5",
     "@fontsource/inter": "^4.3.0",
     "@fontsource/poppins": "^4.3.0",
     "gatsby": "^2.21.0",
