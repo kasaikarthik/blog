@@ -8,6 +8,7 @@ author:
 tags:
   - Startups
   - Technology
+  - Business
 time: 3
 metaDescription: |-
   As the deep-tech domain continues to grow and find its
